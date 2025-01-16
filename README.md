@@ -24,7 +24,7 @@ A simple Django REST Framework (DRF) project for managing hotel room bookings.
 ### Prerequisites
 - Python 3.10+
 - Virtual Environment (optional but recommended)
-- PostgreSQL or SQLite (default)
+- MySQL/PostgreSQL or SQLite (default)
 
 ### Steps
 
