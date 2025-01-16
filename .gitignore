@@ -1,0 +1,26 @@
+# Virtual environment
+.venv
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django files
+db.sqlite3
+/media/
+/static/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Other common files
+*.DS_Store  # For macOS
+*.bak       # Backup files
