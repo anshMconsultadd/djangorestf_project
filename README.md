@@ -90,7 +90,7 @@ backend/
 │   ├── serializers.py   # DRF serializers for validation and serialization
 │   ├── views.py         # API views for admin and user endpoints
 │   ├── urls.py          # URL routing for app endpoints
-├── backend/
+├── reservations/
 │   ├── settings.py      # Project settings
 │   ├── urls.py          # Root URL configuration
 │   ├── wsgi.py          # WSGI entry point
