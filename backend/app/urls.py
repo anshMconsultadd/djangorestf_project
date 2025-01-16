@@ -5,11 +5,14 @@ from .views import (
     room_delete,
     available_room_list,
     book_room,
-    cancel_booking
+    cancel_booking,
+    LoginView,
+    RegisterView,
 )
 
 urlpatterns = [
-
+    path('login/', LoginView.as_view(), name='login'),
+    path('register/', RegisterView.as_view(), name='register'),
     path('admin/rooms/', room_list, name='view_rooms'),
     path('admin/rooms/<int:room_id>/', room_update, name='update_room'),
     path('admin/rooms/<int:room_id>/delete/', room_delete, name='delete_room'),
